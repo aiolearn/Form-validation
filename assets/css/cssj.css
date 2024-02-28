@@ -1,0 +1,24 @@
+@font-face {
+    font-family: sh;
+    src: url(../font/Lalezar-Regular[@fontraigannn].ttf);
+}
+
+#h1{
+    font-family: sh;
+    color: rgb(11, 238, 231);
+    font-size: 50px;
+    text-align: center;
+}
+
+body{ 
+    background-image: url(../img/w1.jpg);
+    background-size: 100%;
+    background-repeat:no-repeat;
+    background-position: center;
+
+}
+
+.ss{
+    margin-left: 219px;
+    font-family:sh ;
+}

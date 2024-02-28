@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/cssj.css">
+  </head>
+  <body>
+
+    <h1 id="h1">your welcome</h1>
+
+    <div class="container">
+      <br>
+      <div  class="ss col-lg-6  ">
+        <form action="#"onsubmit="return validation() " >
+          <div class="form-group" >
+            <label for="user" class="form-label mb-2">username</label>
+            <input
+            type="text"
+            name="user"
+            id="user"
+            class="form-control"
+            autocomplete="off"
+            />
+            <span id="username" class="text-danger  font-weight-regular" ></span>
+          </div>
+
+          <div class="form-group">
+            <label class="font-weight-regluar mb-2 ">Password</label>
+            <input 
+            type="password"
+            name="pass"
+            id="pass"
+            class="form-control"
+            autocomplete="off"
+            />
+            <span id="password" class="text-danger  font-weight-regular " ></span>
+          </div>
+          <br>
+
+          <input 
+          type="submit"
+          name="submit"
+          value="submit"
+          id="submit"
+          class="btn btn-success"
+          autocomplete="off"
+          />
+          &emsp;&emsp;&emsp; Did not have an account?
+          <a href="index.html">Signup</a>
+        </form>
+      </div>   
+    </div>
+
+    <script src="assets/js/er.js"></script>
+  </body>
+</html>

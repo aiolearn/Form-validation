@@ -1,0 +1,118 @@
+<html>
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+      <link rel="stylesheet" href="assets/css/sd.css">
+  </head>
+
+  <body>
+    <h1  class=" text-success text-center font-weight-bold " style="font-size: 40px; font-family:sh; " >
+      form validation in java script
+    </h1>
+
+    <h4 style="font-family:sh;"  class="text-primary text-center font-weight-bold" >sign up</h4>
+
+    <div class="sh  container">
+      <br>
+      <div class="col-8 ">
+        <form action="#"  onsubmit= "return validation()" class="bg-light p-3" >
+
+          <div class="form-group mb-1">
+            <label for="name" class="font-weight-regular">Name</label>
+            <input
+            type="text"
+            name="name"
+            id="name" 
+            class="form-control" 
+            autocomplete="off" 
+            />
+            <span id="Name" class="text-danger font-weight-regular" ></span>
+          </div>
+
+          <div class="form-group mb-1">
+            <label for="emails" class="font-weight-regular">Email</label>
+            <input
+            type="email"
+            name="email" 
+            id="emails"
+            class="form-control"
+            autocomplete="off"
+            />
+            <span id="emailids" class="text-danger font-weight-reguler"></span>
+          </div>
+          
+          <div class="form-group mb-1 ">
+            <label for="user" class= "font-weighr-regular ">username</label>
+            <input 
+              type="text"
+              name="user"
+              class="form-control" 
+              id ="user"
+              autocomplete="off"
+            />
+            <span id="username" class="text-danger font-weight-regular" ></span>
+          </div>
+
+          <div class=" form-group mb-1">
+            <label  class="font-weight-regular">Password</label>
+            <input
+            type="password"
+            name="pass"
+            id="pass"
+            class="form-control"
+            autocomplete="off" 
+            />
+            <span id="passwords" class="text-danger font-weight-regular"></span>
+          </div>
+
+          <div class=" form-group mb-1">
+            <label  class="form-label">confirm password</label>
+            <input
+            type="password"
+            name="conpass" 
+            id="conpass"
+            class="form-control"
+            autocomplete="off" 
+            />
+            <span id="confirmpass" class="text-danger font-weight-regular" ></span>
+            
+          </div>
+          <div  class="form-group mb-1">
+            <label class="form-label">mobile number</label>
+            <input
+            type="tel" 
+            name="mobile" 
+            id="mobileNumber" 
+            class="form-control mb-3"
+            autocomplete="off" 
+            />
+            <span  id="mobileno" class="text-danger   font-weight-regular  " ></span>
+          </div>
+
+          <input 
+          type="submit"
+          name="submit"
+          value="submit"
+          class="btn btn-primary"
+          autocomplete="off"
+          />
+          <input 
+          type="reset"
+          name="reset"
+          value="Reset"
+          class="btn btn-secondary"
+          autocomplete="off"
+          />
+
+          &emsp;&emsp;&emsp;Already have an account?
+          <a href="login.html">login</a>
+        </form>
+        <br /><br />
+      </div>
+    </div>
+    <script src="assets/js/ja.js"></script>
+  </body>
+</html>
